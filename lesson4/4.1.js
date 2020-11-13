@@ -1,3 +1,4 @@
+// вот тут комментарий мой
 let d = new Date;
 let month = d.getMonth();
 let c = month + 1;
@@ -56,4 +57,4 @@ alert (dateText + timeText);
 // let timer = setInterval(() => console.log(dateText + timeText), 1000);
 // setTimeout(() => {clearInterval(timer); console.log(dateText + timeText); }, 999);
 // ничего не поняла про таймер, но это задание со звёздочкой, типа для продвинутых)
-// Не моё пока задание) Поэтому я ещё почитаю про таймеры. 
+// Не моё пока задание) Поэтому я ещё почитаю про таймеры.
