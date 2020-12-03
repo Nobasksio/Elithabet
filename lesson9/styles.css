@@ -1,0 +1,151 @@
+html, body {
+	background-color: #f9f9f9;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+}
+
+#column-container {
+	width: 1150px;
+	margin: 0 auto;
+	position: relative;
+	margin-top: 74px;
+}
+
+h2 {
+	width: 559px;
+	position: relative;
+	float: left;
+	font-size: 24px;
+}
+
+#mark {
+	margin-right: 32px;
+}
+
+#leftColumn {
+	display: inline-block;
+	height: 597px;
+	width: 558px;
+}
+
+.emptySlot {
+	padding: 60px 0px;
+	margin-top: 15x;
+}
+
+.fixed-leftColumn {
+	font-family: Arial;
+	font-size: 18px;
+	width: 558px;
+	position: relative;
+	color:#9aa4b8;
+}
+
+.marker{
+	margin: 0;
+}
+
+.markerClear {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	color: red;
+	font-weight: 600;
+	background-color: white;
+	border: 0;
+	font-size: 20px;
+	outline: none;
+	display: inline-block;
+	top: -25px;
+	display: block;
+	margin-left: 472px;
+}
+
+.markerTitle {
+	background-color: white;
+	font-family:  Arial;
+	font-size: 22px;
+	font-weight: 600;
+	color: black;
+	float: right;
+	list-style-position: inside;
+	width: 468px;
+	height: auto;
+	padding: 30px 45px 30px 45px;
+	margin-bottom: 20px;
+	bottom: 25px;
+}
+
+.newDescription {
+	width: 468px;
+	border-top: 1px solid #ebebeb;
+	min-height: auto;
+	outline: none;
+	font-family:  Arial;
+	font-weight: 400;
+	font-size: 20px;
+	color:#9aa4b8;
+	float: right;
+	background-color: white;
+	white-space: break-all;
+	position: relative;
+	padding-top: 20px;
+}
+
+.h2Title {
+}
+
+.fixed-rightColumn {
+	padding: 60px 45px;
+	margin-top: 15x;
+	font-family: Arial;
+	color: #9aa4b8;
+	font-size: 18px;
+}
+
+#rightColumn {
+	float: right;
+	display: inline-block;
+	height: 597px;
+	width: 558px;
+	background-color: white;
+}
+
+#title {
+	width: 460px;
+	height: 55px;
+	margin-bottom: 45px;
+	margin-top: 10px;
+	resize: none;
+	border-color: #ebebeb;
+	outline: none;
+	font-family:  Arial;
+	font-size: 24px;
+	vertical-align: text-top;
+}
+
+#description {
+	width: 460px;
+	height: 200px;
+	margin-bottom:45px;
+	resize: none;
+	margin-top: 10px;
+	border-color: #ebebeb;
+	outline: none;
+	font-family:  Arial;
+	font-size: 20px;
+}
+
+
+#button1 {
+	width: 250px;
+	height: 60px;
+	background-color: #2175fc;
+	font-family:  Arial;
+	font-size: 18px;
+	color: white;
+	border: 0;
+	outline: none;
+}

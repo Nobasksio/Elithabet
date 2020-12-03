@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Дела</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<met a http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<script src="script.js" type="text/javascript" defer></script>
+	</head>
+	<body>
+		<div id="column-container">
+			<h2 id="mark">Список дел: </h2>
+			<h2>Добавить новое дело</h2>
+			<div id="leftColumn">
+				<div class="fixed-leftColumn">
+					<div class="emptySlot">Список пуст...</div>
+					<ol class="marker">
+
+					</ol>
+				</div>
+			</div>
+
+			<div id="rightColumn" >
+				<div class="fixed-rightColumn">
+					<form  required name="my">
+						<div id="nameText">* Название</div>
+						<textarea type="text" id="title" class="title" required></textarea>
+						<div id="descriptionText">* Описание</div>
+						<textarea required type="text" id="description" class="description"></textarea>
+						<input type="button" id="button1" value="Добавить дело">
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>
