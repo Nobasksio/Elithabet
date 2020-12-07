@@ -1,0 +1,67 @@
+html, body {
+	background-image: url('background.jpg');
+	background-attachment: fixed;
+	background-size: 100%;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+}
+
+#central-container {
+	width: 980px;
+	margin: 0 auto;
+}
+
+#joke {
+	position: absolute;
+	margin: 30px;
+}
+
+#button-container {
+	width: 185px;
+	margin-right: 25px;
+	margin-left: 25px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#edit {
+	margin-top: 85px;
+}
+
+.button {
+	width: 185px;
+	height: 60px;
+	margin-top: 25px;
+	box-shadow:  0px 0px 22px 0px #ff00a2;
+	background-color: #faeedd;
+	border: 1px solid #ff00a2;
+	outline: none;
+}
+
+#select {
+	height: 200px;
+	margin-top: 25px;
+	width: 185px;
+	background-color: #faeedd;
+	outline: none;
+	border: 1px solid #ff00a2;
+	box-shadow:  0px 0px 22px 0px #ff00a2;
+}
+
+#dangerText {
+	font-size: 14px;
+	margin-top: 25px;
+	font-weight: 600px;
+}
+
+#paper {
+	width: 502px;
+	background-color: white;
+	box-shadow:  0px 0px 22px 0px #ff00a2;
+	display: inline-block;
+	margin-top: 25px;
+	margin-right: 110px;
+	padding: 60px ;
+}
