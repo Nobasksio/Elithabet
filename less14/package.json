@@ -1,0 +1,34 @@
+{
+  "name": "lesson-14.1.1.1.1.1",
+  "version": "1.0.0",
+  "description": "Just html just button just js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "watch": "webpack --mode development --watch",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "keywords": [
+    "button"
+  ],
+  "author": "AzarenokEl",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^5.0.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^5.0.0-alpha.15",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "mini-css-extract-plugin": "^1.3.3"
+  }
+}
