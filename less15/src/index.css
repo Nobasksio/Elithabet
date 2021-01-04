@@ -1,0 +1,63 @@
+html, body {
+	background-color: #fffaf0;
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+	min-width: 1000px;
+	font-size: 100%;
+}
+
+
+.name{
+		display: inline-block;
+
+}
+
+.text{
+	height: 100px;
+	display: inline-block;
+	width: 345px;
+	white-space: pre-line
+
+}
+
+.send {
+	display: inline-block;
+}
+
+.commentContainer{
+	width: 350px;
+	box-shadow:  0px 0px 22px 0px #faf0e6;
+	background-color: #faeedd;
+	border: 1px solid #faf0e6;
+	padding: 45px;
+
+
+}
+
+.comment{
+	width: 350px;
+	margin-top:30px;
+	width: 350px;
+	border: 1px solid #fff5ee;
+}
+
+.nameComm{
+	border: 1px solid #faf0e6;
+	margin-bottom: 10px;
+	font-size: 1.1em;
+	font-weight: 700;
+	word-wrap: break-word;
+}
+
+.textComm{
+	border: 1px solid #faf0e6;
+	margin-bottom: 10px;
+	font-size: 0.9em;
+	word-wrap: break-word;
+}
+
+.dateComm{
+	border: 1px solid #faf0e6;
+	font-size: 0.7em;
+}
